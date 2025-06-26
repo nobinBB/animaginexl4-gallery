@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Gallery</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+     <header class="header">
+        <div class="header-content">
+            <div class="logo"><a href="/">Modern Gallery</a></div>
+
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="link-box">
+               <a href=""> <div class="link-item">recipeサイトはこちら</div></a>
+            </div>
+
+            <div class="tabs-container" id="tabsContainer">
+                <div class="tabs">
+                    <button class="tab active" data-category="recipe_1">ノーマル魔人</button>
+                    <button class="tab" data-category="recipe_2">ガチャ魔人</button>
+                </div>
+            </div>
+
+            <div class="gallery-grid" id="gallery">
+            </div>
+        </div>
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close">×</button>
+            <img src="" alt="Enlarged image" id="modalImage">
+        </div>
+    </div>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
